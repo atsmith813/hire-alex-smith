@@ -8,5 +8,4 @@ gem 'rails-assets-popper.js', source: 'https://rails-assets.org'
 gem 'rails-assets-modernizr', source: 'https://rails-assets.org'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'middleman-autoprefixer', '~> 2.7'
-gem 'typedjs-rails', '~> 1.0.4'
 
