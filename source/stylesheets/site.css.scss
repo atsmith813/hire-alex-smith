@@ -1,0 +1,34 @@
+@import 'bootstrap';
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
+
+
+.banner {
+  background-color: #141414;
+  padding: 25px;
+}
+
+.headshot {
+  img {
+    opacity: 0.5;
+  }
+}
+
+.intro-text,
+.name-text {
+  position: absolute;
+  color: #ffff;
+}
+
+.intro-text {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.name-text {
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
