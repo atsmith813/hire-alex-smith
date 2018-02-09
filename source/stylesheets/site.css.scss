@@ -7,10 +7,10 @@
   padding: 25px;
 }
 
-.headshot {
-  img {
-    opacity: 0.5;
-  }
+#headshot {
+  opacity: 0.5;
+  height: auto;
+  width: auto;
 }
 
 .intro-text,
@@ -21,23 +21,28 @@
 }
 
 .intro-text {
-  top: 60%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .type-text {
-  top: 70%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%); 
 }
 
 .name-text {
-  top: 80%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);  
 }
 
 .banner-container {
   padding: 0;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: bold;
 }

@@ -1,13 +1,13 @@
 .content-wrapper
   .container-fluid.banner-container
-    .row-fluid.banner
+    .row-fluid.banner.text-center
       .headshot.text-center
         = image_tag 'headshot.png', id: 'headshot'
-      .intro-text.h2
-        I've been called many things...
-      .type-text.h1
-      .name-text.h2
-        But you can call me Alex
+        .intro-text.h2
+          I've been called many things...
+        .type-text.h1
+        .name-text.h2
+          But you can call me Alex
   .container-fluid
     %br
     .row
@@ -15,7 +15,7 @@
         .card
           %h3.card-header Past
           .card-body
-            %h5.card-title
+            %h5.card-title.quote
               "You don't know where you're going until you know where you've
               been"
             %p.card-text
@@ -25,7 +25,7 @@
         .card
           %h3.card-header Present
           .card-body
-            %h5.card-title
+            %h5.card-title.quote
               “Our DNA is 96% chimpanzee. Is that even worth
               arguing?! If I gave you a sandwich that was filled with 96% sh*t
               and 4% ham, would you be willing to consider that a ham sandwich?
@@ -43,7 +43,7 @@
         .card
           %h3.card-header Future
           .card-body
-            %h5.card-title
+            %h5.card-title.quote
               "I don't regret the things I've done, only the things I've never
               tried"
             %p.card-text
