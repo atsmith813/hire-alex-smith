@@ -17,7 +17,7 @@
 .type-text,
 .name-text {
   position: absolute;
-  color: #ffff;
+  color: #ffffff;
 }
 
 .intro-text {
@@ -36,4 +36,8 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);  
+}
+
+.banner-container {
+  padding: 0;
 }
