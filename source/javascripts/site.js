@@ -2,7 +2,6 @@
 //= require popper.js
 //= require bootstrap
 
-
 $(document).ready(function() {
   var type_text = [
     'Hard-working',
@@ -15,10 +14,12 @@ $(document).ready(function() {
     'Loyal',
     'Stuborn'
   ];
+
   new TypeIt('.type-text', {
     strings: type_text,
     breakLines: false,
     lifeLike: true,
     loop: true
   });
+
 });
