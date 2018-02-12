@@ -21,5 +21,4 @@ $(document).ready(function() {
     lifeLike: true,
     loop: true
   });
-
 });
