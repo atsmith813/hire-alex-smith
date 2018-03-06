@@ -15,7 +15,7 @@ $(document).ready(function() {
     'Stuborn'
   ];
 
-  new TypeIt('.type-text', {
+  new TypeIt('#type-text', {
     strings: type_text,
     breakLines: false,
     lifeLike: true,

@@ -2,47 +2,29 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-.banner {
-  background-color: #141414;
-  padding: 25px;
-}
-
 #headshot {
-  opacity: 0.5;
   height: auto;
-  width: auto;
+  width: 70%;
+  border-radius: 50%;
+  margin: 20px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 }
 
-.intro-text,
-.type-text,
-.name-text {
-  position: absolute;
-  color: #ffffff;
+.welcome-text {
+  color: #141414;
 }
 
-.intro-text {
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.type-text {
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
-}
-
-.name-text {
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);  
-}
-
-.banner-container {
-  padding: 0;
+#type-text {
+  font-style: italic;
 }
 
 .quote {
   font-style: italic;
   font-weight: bold;
+}
+
+.container {
+  padding-bottom: 25px;
 }

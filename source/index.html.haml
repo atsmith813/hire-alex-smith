@@ -1,56 +1,65 @@
-.content-wrapper
-  .container-fluid.banner-container
-    .row-fluid.banner.text-center
-      .headshot.text-center
+.container.banner
+  .row
+    .col-12.col-md-6.offset-md-3
+      .text-center
         = image_tag 'headshot.png', id: 'headshot'
-        .intro-text.h2
+  .row
+    .col-12.col-md-6.offset-md-3
+      .welcome-text.text-center
+        .h2#intro-text
           I've been called many things...
-        .type-text.h1
-        .name-text.h2
+        .h1#type-text
+        .h2#name-text
           But you can call me Alex
-  .container-fluid
-    %br
-    .row
-      .col-md-4
-        .card
-          %h3.card-header Past
-          .card-body
-            %h5.card-title.quote
-              "You don't know where you're going until you know where you've
-              been"
-            %p.card-text
-              From flipping burgers at the neighborhood DQ to Wall Street.
-            %a{ href: '#' } Learn more
-      .col-md-4
-        .card
-          %h3.card-header Present
-          .card-body
-            %h5.card-title.quote
-              “Our DNA is 96% chimpanzee. Is that even worth
-              arguing?! If I gave you a sandwich that was filled with 96% sh*t
-              and 4% ham, would you be willing to consider that a ham sandwich?
-              %br
-              %br
-              So If you ever start taking things too seriously, just remember
-              that we are talking monkeys on an organic spaceship flying
-              through the universe.” - Joe Rogan
-            %p.card-text
-              %span
-                Retired corporate mercenary turned Full-Stack Developer at
-                %a{ href: 'https://ticketfire.com' } TicketFire.
-            %a{ href: '#' } Learn more
-      .col-md-4
-        .card
-          %h3.card-header Future
-          .card-body
-            %h5.card-title.quote
-              "I don't regret the things I've done, only the things I've never
-              tried"
-            %p.card-text
-              With supporting text below as a natural lead-in to additional
-              content.
-            %a{ href: '#' } Learn more
-  .container-fluid
-    %br
-    .row
- 
+.container.skills
+  .row
+    .col-md-12
+      .card
+        %h3.card-header Skills & Services
+        .card-body
+          %p.card-text
+            %ul
+              %li Visual Basic
+              %li Excel Macros
+.container.timeline
+  .row
+    .col-md
+      .card
+        %h3.card-header Past
+        .card-body
+          %h5.card-title.quote
+            "You don't know where you're going until you know where you've
+            been"
+          %p.card-text
+            From flipping burgers at the neighborhood DQ to Wall Street.
+          %a{ href: '#' } Learn more
+    .col-md
+      .card
+        %h3.card-header Present
+        .card-body
+          %h5.card-title.quote
+            “Our DNA is 96% chimpanzee. Is that even worth
+            arguing?! If I gave you a sandwich that was filled with 96% sh*t
+            and 4% ham, would you be willing to consider that a ham sandwich?
+            %br
+            %br
+            So If you ever start taking things too seriously, just remember
+            that we are talking monkeys on an organic spaceship flying
+            through the universe.” - Joe Rogan
+          %p.card-text
+            %span
+              Retired corporate mercenary turned Full-Stack Developer at
+              %a{ href: 'https://ticketfire.com' } TicketFire.
+          %a{ href: '#' } Learn more
+    .col-md
+      .card
+        %h3.card-header Future
+        .card-body
+          %h5.card-title.quote
+            "I don't regret the things I've done, only the things I've never
+            tried"
+          %p.card-text
+            With supporting text below as a natural lead-in to additional
+            content.
+          %a{ href: '#' } Learn more
+
