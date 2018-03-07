@@ -5,6 +5,9 @@
 $(document).ready(function() {
   var type_text = [
     'Hard-working',
+    'Genuine',
+    'Unanticipated',
+    'Giggly',
     'Driven',
     'Determined',
     'Smart',
