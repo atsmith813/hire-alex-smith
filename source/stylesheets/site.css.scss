@@ -43,7 +43,8 @@
 }
 
 .intro-text,
-.contact-text {
+.contact-text,
+.about-me-text {
   font-weight: normal;
 }
 
@@ -60,5 +61,13 @@
   }
   i {
     margin: 0.5em;
+  }
+}
+
+.about-me-quote {
+  font-style: italic;
+  margin-top: 1.0em;
+  i {
+    color: #B3B3B2FF;
   }
 }
