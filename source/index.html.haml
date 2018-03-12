@@ -90,56 +90,14 @@
       .col-12.col-md-8.offset-md-2
         %h1
           How do you get started?
-        %h3.intro-text.skill
-          Insert contact form here :)
-
+        .typeform-widget{ "data-hide-footer" => "true", "data-hide-headers" => "true", "data-transparency" => "50", "data-url" => "https://alexsmith5.typeform.com/to/KHwlzl", style: "width: 100%; height: 500px;" }
+        :javascript
+          (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+        %div{ style: "font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" }
+          / powered by
+          / %a{ href: "https://admin.typeform.com/signup?utm_campaign=KHwlzl&utm_source=typeform.com-11875862-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN", style: "color: #999", target: "_blank" } Typeform
   .row
     .col
       %hr
-  .section.about-me
-    .row
-      .col-12.col-md-8.offset-md-2
-        %h1
-          More about me
-        .timeline
-          .row
-            .col-md
-              .card
-                %h3.card-header Past
-                .card-body
-                  %h5.card-title.quote
-                    "You don't know where you're going until you know where you've
-                    been"
-                  %p.card-text
-                    From flipping burgers at the neighborhood DQ to Wall Street.
-                  %a{ href: '#' } Learn more
-            .col-md
-              .card
-                %h3.card-header Present
-                .card-body
-                  %h5.card-title.quote
-                    “Our DNA is 96% chimpanzee. Is that even worth
-                    arguing?! If I gave you a sandwich that was filled with 96% sh*t
-                    and 4% ham, would you be willing to consider that a ham sandwich?
-                    %br
-                    %br
-                    So If you ever start taking things too seriously, just remember
-                    that we are talking monkeys on an organic spaceship flying
-                    through the universe.” - Joe Rogan
-                  %p.card-text
-                    %span
-                      Retired corporate mercenary turned Full-Stack Developer at
-                      %a{ href: 'https://ticketfire.com' } TicketFire.
-                  %a{ href: '#' } Learn more
-            .col-md
-              .card
-                %h3.card-header Future
-                .card-body
-                  %h5.card-title.quote
-                    "I don't regret the things I've done, only the things I've never
-                    tried"
-                  %p.card-text
-                    With supporting text below as a natural lead-in to additional
-                    content.
-                  %a{ href: '#' } Learn more
+
 
