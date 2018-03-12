@@ -20,7 +20,8 @@
   font-style: italic;
 }
 
-.quote {
+.quote,
+.copy-source {
   font-style: italic;
   font-weight: bold;
 }
@@ -56,5 +57,8 @@
   }
   a:hover {
     text-decoration: none;
+  }
+  i {
+    margin: 0.5em;
   }
 }
