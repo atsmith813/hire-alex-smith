@@ -49,3 +49,12 @@
 .contact-text {
   margin-top: 1.5em;
 }
+
+.social-media {
+  a {
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
