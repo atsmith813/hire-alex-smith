@@ -126,7 +126,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap (~> 4.0.0)
-  font-awesome-sass (~> 4.7.0)
+  font-awesome-sass (= 4.7.0)
   middleman!
   middleman-autoprefixer (~> 2.7)
   middleman-sprockets (~> 4.1.1)

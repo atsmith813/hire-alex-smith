@@ -7,15 +7,20 @@ $(document).ready(function() {
     'Hard-working',
     'Genuine',
     'Unanticipated',
+    'Smurff',
+    'Honest',
     'Giggly',
     'Driven',
     'Determined',
     'Smart',
     'Blunt',
-    'Smurff',
     'Kind',
     'Loyal',
-    'Stuborn'
+    'Stubborn',
+    'Goofy',
+    'Pessimistic',
+    'Cheesy',
+    'Annoying'
   ];
 
   new TypeIt('#type-text', {

@@ -6,6 +6,5 @@ gem 'bootstrap', '~> 4.0.0'
 gem 'rails-assets-jquery', source: 'https://rails-assets.org'
 gem 'rails-assets-popper.js', source: 'https://rails-assets.org'
 gem 'rails-assets-modernizr', source: 'https://rails-assets.org'
-gem 'font-awesome-sass', '~> 4.7.0'
+gem 'font-awesome-sass', '4.7.0'
 gem 'middleman-autoprefixer', '~> 2.7'
-

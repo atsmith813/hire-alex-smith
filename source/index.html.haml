@@ -1,97 +1,145 @@
-.container.banner
-  .row
-    .col-12.col-md-6.offset-md-3
-      .text-center
-        = image_tag 'headshot.png', id: 'headshot'
-  .row
-    .col-12.col-md-6.offset-md-3
-      .welcome-text.text-center
-        .h2#intro-text
-          I've been called many things...
-        .h1#type-text
-        .h2#name-text
-          But you can call me Alex
-.container.skills
-  .row
-    .col-12.col-md-6.offset-md-3
-      .card
-        %h3.card-header Skills & Services
-        .card-body
-          .card-text.text-center
-            %ul.list-group
-              %li.list-group-item Visual Basic
-              %li.list-group-item Excel macros
-              %li.list-group-item Financial modeling
-              %li.list-group-item Financial forecasting
-              %li.list-group-item Web development
-              %li.list-group-item Web scraping
-              %li.list-group-item Backend development
-.container.skills
-  .row
-    .col-12
-      .card
-        %h3.card-header Skills & Services
-        .card-body
-          .card-text 
-            %ul
-              %li Visual Basic
-              %li Excel macros
-              %li Financial modeling
-              %li Financial forecasting
-              %li Web development
-              %li Web scraping
-              %li Backend development
 .container
+  .section.banner
+    .row
+      .col-12.col-md-6.offset-md-3
+        .text-center
+          = image_tag 'headshot.png', id: 'headshot'
+    .row
+      .col-12.col-md-6.offset-md-3
+        .welcome-text.text-center
+          .h2#intro-text
+            I've been called many things...
+          .h1#type-text
+          .h2#name-text
+            But you can call me Alex
   .row
-    .col-md
-      .card
-        %h3.card-header Visual Basic
-        .card-body
-          Some details...
-    .col-md
-      .card
-        %h3.card-header Excel macros
-        .card-body
-          Some details...
-.container.timeline
+    .col
+      %hr
+  .section.introduction
+    .row
+      .col-12.col-md-8.offset-md-2
+        %h1
+          What do I do?
+        %h3.intro-text.skill
+          I solve problems and increase efficiency for clients via part-time,
+          project-based engagements.
+  .section.skills
+    .row
+      .macros.col-md-8.offset-md-2
+        %h1
+          How do I do it?
+        %br
+        .row.skill
+          .col-xs-2.col-md-2
+            %i.fa.fa-file-excel-o.fa-fw.icon{ style: 'color: #2a754bff;' }
+          .col-xs-10.col-md-10
+            .skill-text
+              %h3
+                I write Microsoft Excel Macros to...
+              %p
+                Automatically import data from websites or other files, generate
+                reports, and perform those pesky reptitive tasks so you can spend
+                less time in spreadsheets fighting against updates and formatting,
+                and more time focusing on your business. Don't budget an entire
+                salary for a new hire, automate your entire process with a single
+                click!
+        .row.skill
+          .col-xs-2.col-md-2
+            %i.fa.fa-line-chart.fa-fw.icon{ style: 'color: #0F7FFEFF;' }
+          .col-xs-10.col-md-10
+            .skill-text
+              %h3
+                I create financial models to...
+              %p
+                Prepare you for your next fundraising round and investor meetings.
+                Want to forecast your financials for next year or user adoption?
+                I'll build you models to answer those tough "what if" questions
+                about the future. I can even include the information formatted
+                in your presentations and have it update itself automatically. 
+        .row.skill
+          .col-xs-2.col-md-2
+            %i.fa.fa-code.fa-fw.icon{ style: 'color: #FB0106FF;' }
+          .col-xs-10.col-md-10
+            .skill-text
+              %h3
+                I develop software to...
+              %p
+                To do everything. I build web-scrapers to import data
+                from a website, such as your competitor. I build websites. I
+                build custom API integrations to enhance your existing technology
+                with 3rd party services. My tools of choice include Ruby on Rails,
+                Javascript, HTML, CSS, SQL, and more! 
+        .row.skill
+          .col-xs-2.col-md-2
+            %i.fa.fa-pencil.fa-fw.icon{ style: 'color: #FFCC00;' }
+          .col-xs-10.col-md-10
+            .skill-text
+              %h3
+                I can teach you more about...
+              %p
+                The financial markets. Have you ever felt intimated by the Wall
+                Street buzz words and the world of investing? I can break it
+                down for you. Looking to break into Software Development? I can
+                teach how you to get started. Confused about a contractor is
+                charging you to build your MVP? I can offer a second opinion.
   .row
-    .col-md
-      .card
-        %h3.card-header Past
-        .card-body
-          %h5.card-title.quote
-            "You don't know where you're going until you know where you've
-            been"
-          %p.card-text
-            From flipping burgers at the neighborhood DQ to Wall Street.
-          %a{ href: '#' } Learn more
-    .col-md
-      .card
-        %h3.card-header Present
-        .card-body
-          %h5.card-title.quote
-            “Our DNA is 96% chimpanzee. Is that even worth
-            arguing?! If I gave you a sandwich that was filled with 96% sh*t
-            and 4% ham, would you be willing to consider that a ham sandwich?
-            %br
-            %br
-            So If you ever start taking things too seriously, just remember
-            that we are talking monkeys on an organic spaceship flying
-            through the universe.” - Joe Rogan
-          %p.card-text
-            %span
-              Retired corporate mercenary turned Full-Stack Developer at
-              %a{ href: 'https://ticketfire.com' } TicketFire.
-          %a{ href: '#' } Learn more
-    .col-md
-      .card
-        %h3.card-header Future
-        .card-body
-          %h5.card-title.quote
-            "I don't regret the things I've done, only the things I've never
-            tried"
-          %p.card-text
-            With supporting text below as a natural lead-in to additional
-            content.
-          %a{ href: '#' } Learn more
+    .col
+      %hr
+  .section.contact-me
+    .row
+      .col-12.col-md-8.offset-md-2
+        %h1
+          How do you get started?
+        %h3.intro-text.skill
+          Insert contact form here :)
+
+  .row
+    .col
+      %hr
+  .section.about-me
+    .row
+      .col-12.col-md-8.offset-md-2
+        %h1
+          More about me
+        .timeline
+          .row
+            .col-md
+              .card
+                %h3.card-header Past
+                .card-body
+                  %h5.card-title.quote
+                    "You don't know where you're going until you know where you've
+                    been"
+                  %p.card-text
+                    From flipping burgers at the neighborhood DQ to Wall Street.
+                  %a{ href: '#' } Learn more
+            .col-md
+              .card
+                %h3.card-header Present
+                .card-body
+                  %h5.card-title.quote
+                    “Our DNA is 96% chimpanzee. Is that even worth
+                    arguing?! If I gave you a sandwich that was filled with 96% sh*t
+                    and 4% ham, would you be willing to consider that a ham sandwich?
+                    %br
+                    %br
+                    So If you ever start taking things too seriously, just remember
+                    that we are talking monkeys on an organic spaceship flying
+                    through the universe.” - Joe Rogan
+                  %p.card-text
+                    %span
+                      Retired corporate mercenary turned Full-Stack Developer at
+                      %a{ href: 'https://ticketfire.com' } TicketFire.
+                  %a{ href: '#' } Learn more
+            .col-md
+              .card
+                %h3.card-header Future
+                .card-body
+                  %h5.card-title.quote
+                    "I don't regret the things I've done, only the things I've never
+                    tried"
+                  %p.card-text
+                    With supporting text below as a natural lead-in to additional
+                    content.
+                  %a{ href: '#' } Learn more
 
