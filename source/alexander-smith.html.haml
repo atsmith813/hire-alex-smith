@@ -86,19 +86,19 @@
           return. Apple stock went up 5%, you made 5%. This is a
           %span{ style: 'font-style: italic;' }
             linear payoff.
-          The investment went up 5%, you made 5%. That payoff looks like this
-        %p
-          INSERT LINEAR GRAPH HERE
+          The investment went up 5%, you made 5%. That payoff looks like this:
+        %p.text-center
+          = partial 'partials/linear_graph'
         %p
           Now, back to structured products. By doing some super complicated
           and magical financial sorcery, we created products that turned that
-          linear payoff into something more exotic like this
+          linear payoff into something more exotic like this:
+        %p.text-center
+          = partial 'partials/arn_graph'
         %p
-          INSERT STEP UP GRAPH HERE
-        %p
-          or this
-        %p
-          INSERT ARN GRAPH HERE
+          or this:
+        %p.text-center
+          = partial 'partials/step_up_graph'
         %p
           Now if Apple went up 5%, you could make 15%. Or if Apple was simply
           up by any amount after 1 year, you could make 30% for example. Pretty
@@ -108,7 +108,6 @@
             %small{ style: 'font-style: italic;' }
               These are hypothetical examples and do not reflect actual
               products or investment advice.
-
 .row
   .col
     %hr  
