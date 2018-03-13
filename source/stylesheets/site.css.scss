@@ -70,10 +70,15 @@
   }
 }
 
-.about-me-quote {
+.about-me-quote,
+.testimonial-quote {
   font-style: italic;
   margin-top: 1.0em;
   i {
     color: #B3B3B2FF;
   }
+}
+
+.question {
+  font-weight: bold;
 }

@@ -89,10 +89,15 @@
     .row
       .col-12.col-md-8.offset-md-2
         %h1
-          Testimonial
-        %p.testimonial-text
-          Contact me by quickly filling out the 4 questions below, and I'll get
-          back to you within 24 hours!
+          What are others saying?
+        %p.testimonial-quote
+          %i.fa.fa-quote-left.fa-3x.fa-pull-left
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+          non magna purus. Nullam dictum rutrum euismod. Suspendisse potenti.
+          Nulla facilisi. Praesent urna enim, finibus eu interdum sit amet,
+          elementum vel lacus. Vestibulum ante ipsum primis in faucibus orci
+          luctus et ultrices posuere cubilia Curae; Morbi sapien enim, posuere
+          ut purus sed, fermentum sollicitudin justo. - Armando, Amazon.com, Inc.
   .row
     .col
       %hr
@@ -114,9 +119,14 @@
     .row
       .col-12.col-md-8.offset-md-2
         %h1
-          FAQ
+          Questions?
         %p.faq-text
-          Ldskjf skldjf akldjf;aj sdkjflkdfj sudfoauisou
+          .question
+            What does a typical project engagement look like? 
+          %p
+            While there's no typical project, clients can expect 1-2 weeks for
+            me to complete a project, depending on scope. For teaching, speaking,
+            or consulting engagements we will schedule 1-hour blocks accordingly.
   .row
     .col
       %hr
@@ -124,9 +134,18 @@
     .row
       .col-12.col-md-8.offset-md-2
         %h1
-          Learn more
+          Who am I?
         %p.learn-more-text
-          Ldskjf skldjf akldjf;aj sdkjflkdfj sudfoauisou
+          Interesting in learning more
+          = succeed '?' do
+            %a{ href: '/alexander-smith.html' } about me
+          You can read more about
+          = succeed ',' do
+            %a{ href: '#about-me-past' } how I went from flipping burgers at the neighborhood DQ to Wall Street
+          = succeed ',' do
+            %a{ href: '#about-me-present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
+          = succeed '.' do
+            %a{ href: '#about-me-future' } and what I'm working towards next
   .row
     .col
       %hr
