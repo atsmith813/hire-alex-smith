@@ -46,17 +46,16 @@
           From flipping burgers at the neighborhood DQ to Wall Street. I've been
           working since I was 15 years old, and it all started at the local DQ
           Grill & Chill. Looking back, it was blast working with friends and
-          making my own money. After DQ Grill & Chill, I worked at Papa John's
-          making pizza, literally "making dough".
+          making my own money. After DQ, I worked at Papa John's, literally
+          "making dough".
         %p
           Upon graduating high school, I moved from Tampa to Orlando to attend
-          the University of Central Florida on scholarship. It was nice to see
-          all the hours of extra-curriculars pay off. I started as an Accounting
+          the University of Central Florida on scholarship. I started as an Accounting
           major. I was convinced that with my math skills, it was all but
           decided for me. Then, I stumbled upon an organization called the Young
           Investors Club where I was bit by the "stock market bug". I quickly
           changed my major to Finance with a certificate in investments. Soon
-          after, I landed a paid internship at a local Scottrade (brokerage
+          after, I landed a paid internship at a local Scottrade branch (brokerage
           firm) in my sophomore year. I was fully immersed in the finance world,
           I was studying it, working in it, and loving it! For the summer of
           my junior year, I took a leave of absence from Scottrade to move to
@@ -71,18 +70,18 @@
           internship had been a rotation program, so I had the opportunity to
           experience many different teams, but now I was on the structured
           products team full-time. What is a structured product? The one-liner
-          on the brochure might read something like
-          %span{ style: 'font-style: italic;' }
-            bespoke investment products made up of several equity, commodity,
-            FX, and interest rate derivatives packaged with senior unsecured
-            debt.
+          on the brochure might read something like,
         %p
-          = '...'
+          %span{ style: 'font-style: italic;' }
+            "Structured products are made up of several equity, commodity,
+            FX, and interest rate derivatives packaged with senior unsecured
+            debt to provide investors alternative investment vehicles to help
+            them meet and exceed their financial goals.""
         %p
           Right? What the heck does all that even mean? Here's how I typically
           explain it. Lets take a more normal investment, such as buying 1
-          share of Apple Inc. (aapl). If you bought that share when Apple was
-          $100, and then it goes up to $105, you as in investor made a 5%
+          share of Apple Inc. (aapl). If you bought that share when Apple was at
+          $100, and then it goes up to $105, you as an investor made a 5%
           return. Apple stock went up 5%, you made 5%. This is a
           %span{ style: 'font-style: italic;' }
             linear payoff.
@@ -103,6 +102,8 @@
           Now if Apple went up 5%, you could make 15%. Or if Apple was simply
           up by any amount after 1 year, you could make 30% for example. Pretty
           cool, right?
+        %p
+
         %p
           %span
             %small{ style: 'font-style: italic;' }
@@ -147,6 +148,12 @@
               %th Est. completion
           %tbody
             %tr
+              %td Assemble Porsche 911 GT3 RS model
+              %td
+                .progress
+                  .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '100', role: 'progressbar', style: 'width: 100%' }
+              %td March 2018
+            %tr
               %td Re-build/upgrade my desktop PC
               %td
                 .progress
@@ -176,3 +183,19 @@
                 .progress
                   .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '10', role: 'progressbar', style: 'width: 10%' }
               %td Winter 2018
+            %tr 
+              %td Visit all my good friends from middle and high school
+              %td
+                .progress
+                  .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '60', role: 'progressbar', style: 'width: 60%' }
+              %td Year end
+            %tr 
+              %td Read 12 books
+              %td
+                .progress
+                  .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '25', role: 'progressbar', style: 'width: 25%' }
+              %td Year end
+            %tr 
+              %td No regrets: leave a positive impact on others
+              %td Always in progress
+              %td Life
