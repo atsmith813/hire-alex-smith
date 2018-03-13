@@ -5,13 +5,12 @@
         .text-center
           = image_tag 'headshot.png', id: 'headshot'
     .row
-      .col-12.col-md-6.offset-md-3
-        .welcome-text.text-center
-          .h2#intro-text
-            I've been called many things...
-          .h1#type-text
-          .h2#name-text
-            But you can call me Alex
+      .col-12.col-md-6.offset-md-3.text-center
+        .h2#intro-text
+          I've been called many things...
+        .h1#type-text
+        .h2#name-text
+          But you can call me Alex
   .row
     .col
       %hr
@@ -94,12 +93,9 @@
         %h3.contact-text
           Contact me by quickly filling out the 4 questions below, and I'll get
           back to you within 24 hours!
-        .typeform-widget{ "data-hide-footer" => "true", "data-hide-headers" => "true", "data-transparency" => "50", "data-url" => "https://alexsmith5.typeform.com/to/KHwlzl", style: "width: 100%; height: 500px;" }
+        .typeform-widget{ "data-hide-footer" => "true", "data-hide-headers" =>"true", "data-transparency" => "50", "data-url" => "https://alexsmith5.typeform.com/to/KHwlzl", style: "width: 100%; height: 500px;" }
         :javascript
           (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
-        / %div{ style: "font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;" }
-        /   powered by
-        /   %a{ href: "https://admin.typeform.com/signup?utm_campaign=KHwlzl&utm_source=typeform.com-11875862-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN", style: "color: #999", target: "_blank" } Typeform
   .row
     .col
       %hr
@@ -119,13 +115,13 @@
         %p
           %span
             %p.social-media
-              %a{ href: 'https://twitter.com/A_Smith223' }
-                %i.fa.fa-twitter.fa-2x   
-              %a{ href: 'https://www.facebook.com/alex.smiff.7' }
-                %i.fa.fa-facebook.fa-2x   
-              %a{ href: 'https://www.instagram.com/allthingssmurff/' }
-                %i.fa.fa-instagram.fa-2x   
               %a{ href: 'https://github.com/atsmith813' }  
-                %i.fa.fa-github.fa-2x   
+                %i.fa.fa-github.fa-2x
+              %a{ href: 'https://twitter.com/A_Smith223' }
+                %i.fa.fa-twitter.fa-2x
+              %a{ href: 'https://www.instagram.com/allthingssmurff/' }
+                %i.fa.fa-instagram.fa-2x
+              %a{ href: 'https://www.facebook.com/alex.smiff.7' }
+                %i.fa.fa-facebook.fa-2x
               %a{ href: 'https://medium.com/@A_Smith223' }  
-                %i.fa.fa-medium.fa-2x   
+                %i.fa.fa-medium.fa-2x

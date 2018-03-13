@@ -3,8 +3,11 @@
     .row
       .col-12.col-md-6.offset-md-3
         .text-center
-          %h1
-            About me
+          = image_tag 'black-and-white.png', id: 'black-and-white'
+    .row
+      .col-12.col-md-6.offset-md-3.text-center
+        %h1
+          About me
   .section.about-me-summary
     .row
       .col-12.col-md-8.offset-md-2
@@ -12,29 +15,109 @@
           TLDR
         %p.about-me-text
           A Florida native currently residing in Columbus, Ohio, my name is
-          Alexander Smith (Alex).
+          Alexander Smith (Alex). While I call Tampa, FL home, I was born in
+          Baltimore, MD and I've been to Germany more times than my fingers
+          permit me to count. I have a black belt in Tae Kwon Do (it's been
+          awhile though). I originally planned to join the military and was in
+          ROTC in High School. I consider myself a mild adrenaline-junky and I
+          love anything with an engine. I've had experience with 4-wheelers,
+          go-karts, boats, jet skis, motorcycles, sports cars, and more. If it
+          goes fast, I'm interested. Speaking of interested, want to learn more?
+          You can read more about
+          = succeed ',' do
+            %a{ href: '#about-me-past' } how I went from flipping burgers at the neighborhood DQ to Wall Street
+          = succeed ',' do
+            %a{ href: '#about-me-present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
+          = succeed '.' do
+            %a{ href: '#about-me-future' } and what I'm working towards next
   .row
     .col
       %hr
-  .section.about-me-past
+  .section#about-me-past
     .row
       .col-12.col-md-8.offset-md-2
         %h3
-          Past
+          Where I've been
         %p.about-me-quote
           %i.fa.fa-quote-left.fa-3x.fa-pull-left
           You don't know where you're going until you know where you've been
         %br
-        %p.about-me-text
-          From flipping burgers at the neighborhood DQ to Wall Street.
+        .about-me-text
+          %p
+            From flipping burgers at the neighborhood DQ to Wall Street. I've been
+            working since I was 15 years old, and it all started at the local DQ
+            Grill & Chill. Looking back, it was blast working with friends and
+            making my own money. After DQ Grill & Chill, I worked at Papa John's
+            making pizza, literally "making dough".
+          %p
+            Upon graduating high school, I moved from Tampa to Orlando to attend
+            the University of Central Florida on scholarship. It was nice to see
+            all the hours of extra-curriculars pay off. I started as an Accounting
+            major. I was convinced that with my math skills, it was all but
+            decided for me. Then, I stumbled upon an organization called the Young
+            Investors Club where I was bit by the "stock market bug". I quickly
+            changed my major to Finance with a certificate in investments. Soon
+            after, I landed a paid internship at a local Scottrade (brokerage
+            firm) in my sophomore year. I was fully immersed in the finance world,
+            I was studying it, working in it, and loving it! For the summer of
+            my junior year, I took a leave of absence from Scottrade to move to
+            New York City for an internship with Bank of America Merrill Lynch. At
+            this point I was only confirming what I already knew: I wanted to live
+            and work on Wall Street. After that summer, the structured products
+            team offered me a full-time position. That senior year was a blast.
+            Once I had my degree in hand, I sold my soul, threw on a suit, and
+            caught the next flight to NYC to start my new life in the "real world".
+          %p
+            I was in the honeymoon and loving every second of it. My summer
+            internship had been a rotation program, so I had the opportunity to
+            experience many different teams, but now I was on the structured
+            products team full-time. What is a structured product? The one-liner
+            on the brochure might read something like
+            %span{ style: 'font-style: italic;' }
+              bespoke investment products made up of several equity, commodity,
+              FX, and interest rate derivatives packaged with senior unsecured
+              debt.
+          %p
+            = '...'
+          %p
+            Right? What the heck does all that even mean? Here's how I typically
+            explain it. Lets take a more normal investment, such as buying 1
+            share of Apple Inc. (aapl). If you bought that share when Apple was
+            $100, and then it goes up to $105, you as in investor made a 5%
+            return. Apple stock went up 5%, you made 5%. This is a
+            %span{ style: 'font-style: italic;' }
+              linear payoff.
+            The investment went up 5%, you made 5%. That payoff looks like this:
+          %p
+            INSERT LINEAR GRAPH HERE
+          %p
+            Now, back to structured products. By doing some super complicated
+            and magical financial sorcery, we created products that turned that
+            linear payoff into something more exotic like:
+          %p
+            INSERT STEP UP GRAPH HERE
+          %p
+            or
+          %p
+            INSERT ARN GRAPH HERE
+          %p
+            Now if Apple went up 5%, you could make 15%. Or if Apple was simply
+            up by any amount after 1 year, you could make 30% for example. Pretty
+            cool, right?
+          %p
+            %span
+              %small{ style: 'font-style: italic;' }
+                These are hypothetical examples and do not reflect actual
+                products or investment advice.
+
   .row
     .col
       %hr  
-  .section.about-me-present  
+  .section#about-me-present  
     .row
       .col-12.col-md-8.offset-md-2
         %h3
-          Present
+          Where I am
         %p.about-me-quote
           %i.fa.fa-quote-left.fa-3x.fa-pull-left
           Our DNA is 96% chimpanzee. Is that even worth arguing?! If I gave
@@ -49,11 +132,11 @@
   .row
     .col
       %hr
-  .section.about-me-future
+  .section#about-me-future
     .row
       .col-12.col-md-8.offset-md-2
         %h3
-          Future
+          Where I'm going
         %p.about-me-quote
           %i.fa.fa-quote-left.fa-3x.fa-pull-left
           I don't regret the things I've done, only the things I've never tried
