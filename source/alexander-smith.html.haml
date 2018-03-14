@@ -29,6 +29,11 @@
           %a{ href: '#about-me-present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
         = succeed '.' do
           %a{ href: '#about-me-future' } and what I'm working towards next
+        And while we're still talking about me, you can
+        %a{ href: 'index.html' } hire me
+        to help
+        = succeed '!' do
+          %span{ style: 'font-style: italic;' } you
 .row
   .col
     %hr
@@ -66,7 +71,7 @@
           Once I had my degree in hand, I sold my soul, threw on a suit, and
           caught the next flight to NYC to start my new life in the "real world".
         %p
-          I was in the honeymoon and loving every second of it. My summer
+          I was in the honeymoon phase and loving every second of it. My summer
           internship had been a rotation program, so I had the opportunity to
           experience many different teams, but now I was on the structured
           products team full-time. What is a structured product? The one-liner
@@ -103,12 +108,45 @@
           up by any amount after 1 year, you could make 30% for example. Pretty
           cool, right?
         %p
-
+          %small{ style: 'font-style: italic;' }
+            These are hypothetical examples and do not reflect actual
+            products or investment advice.
         %p
-          %span
-            %small{ style: 'font-style: italic;' }
-              These are hypothetical examples and do not reflect actual
-              products or investment advice.
+          So what did I do? I would model and price these products by analyzing
+          roughly 15 different input variables (read: buzzwords) such as the
+          delta, vega, and strike price to determine the present value of the
+          structured product, given the current stock market conditions at that
+          time (interest rates, trading volumes, etc.). See, I told you it was
+          magic.
+        %p
+          So there I was, making more money than I realistically knew how to spend 
+          wisely in one of the most highly sought after destinations in the world,
+          New York City. My parents were proud. My peers were envious. By most
+          defintions of where I'm from, I had more than made it.
+        %p
+          But I hated it. I left.
+        %p
+          I wish I could say that it was just that quick and easy, I didn't like
+          it so I left. But the truth is it took me a couple of years to muster
+          the strength to toss away everything I had worked so hard to get my
+          entire life. To start over. But really, it was a quite the journey to
+          that final decision. I remember, my last day of work was on a Thursday,
+          and the next day, Friday, I was on a flight at 10:30am back to Florida
+          to take some time off for a few months.
+        %p
+          I then joined a fellowship called
+          = succeed '.' do
+            %a{ href: 'https://ventureforamerica.org/' } Venture For America (VFA)
+          I encourage you to check them out, but the short of it is they're a
+          non-profit organization dedicated to the revitalization of the economy
+          by recruiting top talent to join startups outside the major hubs (i.e.
+          San Francisco, New York, etc.) in places such as Columbus, Pittsburgh,
+          and Philadelphia. By doing this, fellows gain invaluable experience
+          on what it takes to start a company. After the fellowship, VFA has
+          ample resources to help fellows start their own venture, and thereby
+          creating more jobs in the economy.
+        %p
+          This is what brought me to Columbus, Ohio.
 .row
   .col
     %hr  
@@ -125,9 +163,50 @@
         taking things too seriously, just remember that we are talking monkeys
         on an organic spaceship flying through the universe. - Joe Rogan
       %p.about-me-text
-        %span
-          Retired corporate mercenary turned Full-Stack Developer at
-          %a{ href: 'https://ticketfire.com' } TicketFire.
+        Retired corporate mercenary turned Full-Stack Developer at
+        = succeed '.' do
+          %a{ href: 'https://ticketfire.com' } TicketFire
+        After moving to Columbus, I spent a year doing my part to give back by
+        working with organizations dedicated to helping first-generation students
+        and students of underrepresented backgrounds get into college. By
+        leveraging technology and mentorship, we were able to help thousands of
+        students get into college who otherwise liekly would have never gone.
+        As a first-generation college student myself, this was very fulfilling
+        and I was happy to feel like I was making a difference.
+      %p
+        Over time, as I continued to work more with technology, I realized my
+        previous coding experience was something I was constantly gravitating
+        back towards, so I decided to turn it into something more full-time.
+      %p
+        I began coding with every minute of my spare time and teaching myself
+        new languages. To top it all off, I attended a coding bootcamp,
+        %a{ href: 'https://www.techtalentsouth.com/' } Tech Talent South
+        to meet other people looking to change career paths, and to take my
+        skills even further.
+      %p
+        From there, I landed into my current gig, where I am a Full-Stack
+        Software Engineer at
+        %a{ href: 'https://ticketfire.com' } TicketFire
+        where we are doing some really cool things!
+      %p
+        With TicketFire you can buy, sell, and digitize your event tickets. That
+        means you can take a picture from our mobile apps of that event ticket
+        you have, and text it to your friends.
+      %p
+        From a technology perspective, it's even more exciting. Because we scan
+        images for event information to turn into tickets, because at their core
+        tickets are a digital asset, and because we have a live exchange/marketplace
+        with 100,000+ events across 5,000+ venues around the world, I've
+        been lucky enough to work on some very challenging and rewarding projects.
+        The algorithms, 3rd party API integrations, and sheer size of the platform
+        all make it a lot of fun to work on. Being one of three developers, I've
+        been able to take on a lot of responsibility and leadership very quickly.
+        I'm also very fortunate to be able to work with two of the best developers
+        and mentors that Columbus (and beyond) has to offer,
+        %a{ href: 'https://lscott3.com/' } Larry Scott
+        and
+        = succeed '.' do
+          %a{ href: 'https://www.linkedin.com/in/dscotts3/' } Dwight Scott
 .row
   .col
     %hr
@@ -152,6 +231,12 @@
               %td
                 .progress
                   .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '100', role: 'progressbar', style: 'width: 100%' }
+              %td March 2018
+            %tr
+              %td Re-balance stock portfolio
+              %td
+                .progress
+                  .progress-bar{ 'aria-valuemax' => '100', 'aria-valuemin' => '0', 'aria-valuenow' => '80', role: 'progressbar', style: 'width: 80%' }
               %td March 2018
             %tr
               %td Re-build/upgrade my desktop PC
@@ -199,3 +284,23 @@
               %td No regrets: leave a positive impact on others
               %td Always in progress
               %td Life
+.row
+  .col
+    %hr
+.section#hobbies
+  .row
+    .col-12.col-md-8.offset-md-2
+      %h3
+        Hobbies and interests
+      %p
+        .row
+          .col.col-md-6.col-xs-6
+            %br Skydiving
+            %br Cars
+            %br Computers
+            %br Volleyball
+          .col.col-md-6.col-xs-6
+            %br Music / speakers
+            %br Golf
+            %br Board games
+            %br Paintballing
