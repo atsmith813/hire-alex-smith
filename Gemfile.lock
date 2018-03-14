@@ -83,7 +83,7 @@ GEM
     middleman-autoprefixer (2.8.0)
       autoprefixer-rails (>= 7.0.1, < 8.0.0)
       middleman-core (>= 3.3.3)
-    middleman-deploy (1.0.0)
+    middleman-deploy (2.0.0.pre.alpha)
       middleman-core (>= 3.2)
       net-sftp
       ptools
@@ -137,7 +137,7 @@ DEPENDENCIES
   font-awesome-sass (= 4.7.0)
   middleman!
   middleman-autoprefixer (~> 2.7)
-  middleman-deploy (~> 1.0)
+  middleman-deploy (~> 2.0.0.pre.alpha)
   middleman-sprockets (~> 4.1.1)
   rails-assets-jquery!
   rails-assets-modernizr!
