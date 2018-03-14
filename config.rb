@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :deploy do |deploy|
+  deploy.method = :git
+  deploy.build_before = true
+end
+
 # Sprockets asset compilation
 activate :sprockets
 set :css_dir, 'stylesheets'
