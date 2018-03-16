@@ -11,7 +11,7 @@ activate :deploy do |deploy|
 end
 
 activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-115884969-1' # Replace with your property ID.
+  ga.tracking_id = 'UA-115884969-1'.
 end
 
 # Sprockets asset compilation
