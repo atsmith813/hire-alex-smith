@@ -2,7 +2,7 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
-img {
+.circle-image {
   height: auto;
   width: 70%;
   border-radius: 50%;
@@ -82,4 +82,9 @@ img {
 
 .table th {
   border-top: none !important;
+}
+
+.graph {
+  width: 100%;
+  height: auto;
 }
