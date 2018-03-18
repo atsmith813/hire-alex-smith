@@ -88,6 +88,26 @@
 .row
   .col
     %hr
+.section.learn-more
+  .row
+    .col-12.col-md-8.offset-md-2
+      %h1
+        Who am I?
+      %p.learn-more-text
+        Interested in learning more
+        = succeed '?' do
+          %a{ href: '/about-me.html' } about me
+        You can read more about
+        = succeed ',' do
+          %a{ href: '/about-me.html#past' } how I went from flipping burgers at the neighborhood DQ to Wall Street
+        = succeed ',' do
+          %a{ href: '/about-me.html#present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
+        = succeed '.' do
+          %a{ href: '/about-me.html#future' } and what I'm working towards next
+        = partial 'partials/contact_me_btn'
+.row
+  .col
+    %hr
 .section.testimonial
   .row
     .col-12.col-md-8.offset-md-2
@@ -146,22 +166,3 @@
           While there's no typical project, clients can expect 1-2 weeks for
           me to complete a project, depending on scope. For teaching, speaking,
           or consulting engagements we will schedule 1-hour blocks accordingly.
-.row
-  .col
-    %hr
-.section.learn-more
-  .row
-    .col-12.col-md-8.offset-md-2
-      %h1
-        Who am I?
-      %p.learn-more-text
-        Interested in learning more
-        = succeed '?' do
-          %a{ href: '/about-me.html' } about me
-        You can read more about
-        = succeed ',' do
-          %a{ href: '/about-me.html#past' } how I went from flipping burgers at the neighborhood DQ to Wall Street
-        = succeed ',' do
-          %a{ href: '/about-me.html#present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
-        = succeed '.' do
-          %a{ href: '/about-me.html#future' } and what I'm working towards next
