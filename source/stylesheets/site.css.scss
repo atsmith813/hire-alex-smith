@@ -54,11 +54,19 @@
   }
   a:hover {
     text-decoration: none;
-    color: #FB0106FF;
   }
   i {
     margin: 0.5em;
   }
+}
+
+.social-media:hover a {
+  opacity: 0.3;
+}
+
+.social-media:hover a:hover {
+  color: #FB0106FF;
+  opacity: 1;
 }
 
 .about-me-quote,
