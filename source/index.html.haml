@@ -5,10 +5,10 @@
         = image_tag 'headshot.png', id: 'headshot', class: 'circle-image'
   .row
     .col-12.col-md-6.offset-md-3.text-center
-      .h2#intro-text
+      %h2#intro-text
         I've been called many things...
-      .h1#type-text
-      .h2#name-text
+      %h1#type-text
+      %h2#name-text
         But you can call me Alex
 .row
   .col
@@ -120,18 +120,21 @@
             .role
               Broker Apprentice
         .col-md-6
-          %p.learn-more-text
-            Interested in learning more
-            = succeed '?' do
-              %a{ href: '/about-me.html' } about me
           %p
-            You can read more about
-            = succeed ',' do
-              %a{ href: '/about-me.html#past' } how I went from flipping burgers at the neighborhood DQ to Wall Street
-            = succeed ',' do
-              %a{ href: '/about-me.html#present' } how I retired from being a corporate mercenary and became a Full-Stack Developer at a startup
-            = succeed '.' do
-              %a{ href: '/about-me.html#future' } and what I'm working towards next
+            .learn-more-text
+              Interested in learning more
+              = succeed '?' do
+                %a{ href: '/about-me.html' } about me
+          %p.company
+            You can read more about...
+          %p
+            %a{ href: '/about-me.html#past' } How I went from flipping burgers at the neighborhood DQ to Wall Street.
+          %p
+            %a{ href: '/about-me.html#present' } How I retired from being a corporate mercenary and became a Full-Stack Developer at a startup.
+          %p
+            %a{ href: '/about-me.html#future' } What I'm working towards next.
+      .row
+        .col-md-12  
           %p#resume-contact-btn
             = partial 'partials/contact_me_btn'
 .row

@@ -2,6 +2,18 @@
 @import 'font-awesome-sprockets';
 @import 'font-awesome';
 
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
 .circle-image {
   height: auto;
   width: 70%;
@@ -14,6 +26,7 @@
 
 #type-text {
   font-style: italic;
+  font-weight: normal;
 }
 
 .quote,
@@ -99,7 +112,7 @@
 }
 
 .role {
-  font-style: italic;
+  font-weight: 200;
 }
 
 .company {
@@ -108,4 +121,8 @@
 
 #resume-contact-btn {
   margin-top: 2em;
+}
+
+p, table {
+  font-weight: 200;
 }
