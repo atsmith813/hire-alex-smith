@@ -14,6 +14,8 @@ activate :google_analytics do |ga|
   ga.tracking_id = 'UA-115884969-1'
 end
 
+activate :livereload
+
 # Sprockets asset compilation
 activate :sprockets
 set :css_dir, 'stylesheets'
