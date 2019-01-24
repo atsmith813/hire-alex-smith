@@ -61,7 +61,7 @@ h1, h2 {
   margin-top: 1.5em;
 }
 
-.social-media {
+.social-media-icon-links {
   a {
     color: inherit;
   }
@@ -73,11 +73,11 @@ h1, h2 {
   }
 }
 
-.social-media:hover a {
+.social-media-icon-links:hover a {
   opacity: 0.3;
 }
 
-.social-media:hover a:hover {
+.social-media-icon-links:hover a:hover {
   color: #FB0106FF;
   opacity: 1;
 }
