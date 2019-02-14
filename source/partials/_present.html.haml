@@ -84,12 +84,23 @@
   A few highlights of what I've accomplished so far:
   %ul
     %li
-      Using a proprietary and custom built ETL platform, I wrote integrations with 3rd parties to
-      normalize millions of data points, daily.
+      Using a proprietary and custom built ETL platform, I wrote integrations
+      with 3rd parties to normalize millions of data points, daily.
     %li
-      Developed a real time integration using Elixir and Phoenix to stream, on average, 1,500+
-      messages per second including Cryptocurrency trades and Cryptocurrency book updates for more
-      than 1,000 Cryptocurrency pairs across 20+ exchanges.
+      Developed a real-time integration using Elixir and Phoenix to stream, on
+      average, ~10,000 messages per second including Cryptocurrency trades and
+      Cryptocurrency book updates for more than 1,000 Cryptocurrency pairs
+      across 20+ exchanges.
     %li
-      Implemented new authetication method and Cryptocurrency real time data streams in our SDKs
-      using Java, C#, Ruby, Python, and JavaScript (including Node).
+      Implemented a new authetication method, Cryptocurrency real-time data
+      streams, and Forex real-time data streams in our SDKs using Java, C#,
+      Ruby, Python, and JavaScript.
+    %li
+      Created a distributed computing setup with Elixir to more efficiently
+      stream thousands of stock prices per second to users at scale.
+    %li
+      Developed several new data feeds for users such as Cryptocurrencies,
+      Forex prices, Municipality Financials, and more. The process of building
+      a data feed typically consists of integrating with 3rd parties to consume
+      the data, building the endpoints, documentation, unit tests, integration
+      tests, and updating SDKs.
