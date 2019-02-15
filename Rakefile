@@ -21,6 +21,6 @@ task :purge_cache do
   if response.kind_of? Net::HTTPSuccess
     puts 'CACHE PURGED!'
   else
-    puts 'Uh oh, something went wrong with purging the cache!'
+    puts "ERROR - (#{response.code}) #{response.message}"
   end
 end
