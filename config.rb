@@ -17,6 +17,10 @@ activate :livereload
 
 # Sprockets asset compilation
 activate :sprockets
+
+# Disable warnings
+Haml::TempleEngine.disable_option_validator!
+
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
