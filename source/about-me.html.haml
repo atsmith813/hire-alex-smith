@@ -8,7 +8,7 @@
       %h1
         About me
 .section.about-me-summary
-  .row
+  .row.mb-5
     .col-12.col-md-8.offset-md-2
       %h3
         TLDR
@@ -36,6 +36,14 @@
         = succeed '!' do
           %span{ style: 'font-style: italic;' } you
         = partial 'partials/contact_me_btn'
+  .row
+    .col-12.col-md-8.offset-md-2
+      %h3
+        Quick timeline of professional experience
+      %p
+        Clicking on the company titles will take you to the section of my story
+        describing the position.
+        = partial 'partials/timeline'
 .row
   .col
     %hr
