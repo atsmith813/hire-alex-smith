@@ -42,7 +42,9 @@
         Quick timeline of professional experience
       %p
         Clicking on the company titles will take you to the section of my story
-        describing the position.
+        describing the position. You can also check out my resume
+        = succeed "." do
+          %a{ href: '/alex_smith_resume.pdf', target: '_blank' } here
         = partial 'partials/timeline'
 .row
   .col
