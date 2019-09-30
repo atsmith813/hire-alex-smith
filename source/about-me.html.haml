@@ -30,6 +30,8 @@
       %p
         %a{ href: '#future' } What I'm working towards next.
       %p
+        %a{ href: '/blog' } Things I've written.
+      %p
         And while we're still talking about me, you can
         %a{ href: '/' } hire me
         to help
@@ -45,7 +47,7 @@
         describing the position. You can also check out my resume
         = succeed "." do
           %a{ href: '/alex_smith_resume.pdf', target: '_blank' } here
-        = partial 'partials/timeline'
+        = partial 'partials/experience_links'
 .row
   .col
     %hr
