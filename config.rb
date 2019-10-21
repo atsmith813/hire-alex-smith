@@ -15,9 +15,6 @@ end
 
 activate :livereload
 
-# Sprockets asset compilation
-activate :sprockets
-
 # Disable warnings
 Haml::TempleEngine.disable_option_validator!
 
