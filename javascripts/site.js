@@ -1,4 +1,3 @@
-//= require jquery
 //= require popper.js
 //= require bootstrap
 
@@ -29,6 +28,4 @@ $(document).ready(function() {
     lifeLike: true,
     loop: true
   });
-
-  $('.tooltipped').tooltip();
 });
