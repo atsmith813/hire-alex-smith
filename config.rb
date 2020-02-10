@@ -15,9 +15,6 @@ end
 
 activate :livereload
 
-# Disable warnings
-Haml::TempleEngine.disable_option_validator!
-
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
@@ -26,4 +23,3 @@ set :images_dir, 'images'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
-
