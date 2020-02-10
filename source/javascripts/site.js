@@ -1,12 +1,11 @@
-//= require popper.js
-//= require bootstrap
-
 $(document).ready(function() {
+  // TypeIt
   var type_text = [
     'Hard-working',
     'Genuine',
     'Unanticipated',
     'Smurff',
+    'Creative',
     'Honest',
     'Giggly',
     'Driven',

@@ -3,13 +3,15 @@
     .col-12.col-md-6.offset-md-3
       .text-center
         = image_tag 'headshot.jpeg', id: 'headshot', class: 'circle-image'
-  .row
+  .row.mb-5
     .col-12.col-md-6.offset-md-3.text-center
       %h2#intro-text
         I've been called many things...
       %h1#type-text
       %h2#name-text
-        But you can call me Alex
+        But you can call me
+      #name.hvr-float-shadow
+        Alex
 .row
   .col
     %hr
@@ -130,15 +132,15 @@
               %p
                 Interested in learning more
                 = succeed '?' do
-                  %a{ href: '/about-me' } about me
+                  %a{ href: 'https://alexsmith.com' } about me
           %p.company
             You can read more about...
           %p
-            %a{ href: '/about-me#past' } How I went from flipping burgers at the neighborhood DQ to Wall Street.
+            %a{ href: 'https://alexsmith.codes/#past' } How I went from flipping burgers at the neighborhood DQ to Wall Street.
           %p
-            %a{ href: '/about-me#present' } How I retired from being a corporate mercenary and became a Full-Stack Developer at a startup.
+            %a{ href: 'https://alexsmith.codes/#present' } How I retired from being a corporate mercenary and became a Full-Stack Developer at a startup.
           %p
-            %a{ href: '/about-me#future' } What I'm working towards next.
+            %a{ href: 'https://alexsmith.codes/#future' } What I'm working towards next.
       .row
         .col-md-12
           %p#resume-contact-btn
